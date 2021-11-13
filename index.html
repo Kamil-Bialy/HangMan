@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Gra w wisielca</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="webfonts/all.css">
+    <script src="webfonts/all.js"></script>
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <div id="gra">
+        <h1 id="tytul">HANGMAN</h1>
+        <p id="wyjasnienie">
+            Twoje zadanie polega na zgadnięciu ukrytego słowa z wybranej kategorii. Za każdą źle zgadniętą literę poniżej zostanie narysowana kolejna część Boba. Gra kończy gdy zgadniesz prawidłowe hasło lub gdy zostanie narysowany cały Bob.<br>
+            (Polskie litery dozwolone)
+        </p>
+
+        <div id="szubienica">
+            <p id="nietrafione">Błędne litery: </p>
+            <svg height="300" width="300">
+                <!-- szubienica -->
+                <line x1="10" y1="250" x2="290" y2="250" />
+                <line x1="100" y1="250" x2="100" y2="20" />
+                <line x1="100" y1="20" x2="200" y2="20" />
+                <line x1="200" y1="20" x2="200" y2="60" />
+
+                <!-- ludzik -->
+                <circle id = "l1" class="ludzik" cx="200" cy="80" r="20" stroke="rgb(196, 53, 53)" stroke-width="5" fill = "rgb(247, 241, 241)"/>
+                <line id="l2" class="ludzik" x1="200" y1="100" x2="200" y2="150" />
+                <line id="l3" class="ludzik" x1="200" y1="120" x2="170" y2="140" />
+                <line id="l4" class="ludzik" x1="200" y1="120" x2="230" y2="140" />
+                <line id="l5" class="ludzik" x1="200" y1="150" x2="180" y2="190" />
+                <line id="l6" class="ludzik" x1="200" y1="150" x2="220" y2="190" />
+            </svg>
+        </div>
+
+        <div id="kategorie">
+            <h1>Wybierz kategorię:</h1><br>
+            <button value="zwierzeta" class="kategoria"><i class="fas fa-paw"></i><br>ZWIERZĘTA</button>
+            <button value="jedzenie" class="kategoria"><i class="fas fa-hamburger"></i><br>JEDZENIE</button>
+            <button value="kraje" class="kategoria"><i class="fas fa-globe-americas"></i><br>KRAJE</button>
+            <button value="sport" class="kategoria"><i class="fas fa-futbol"></i><br>SPORT</button>
+            <button value="wiedza_ogolna" class="kategoria"><i class="fas fa-graduation-cap"></i><br>WIEDZA OGÓLNA</button>
+        </div>
+
+        <div id="wejscie">
+            <p id="haslo"></p>
+            <label>Zgadnij </label><input type="text" maxlength="1">
+        </div>
+
+        <div id="koniec">
+            <h1 id="wynik"></h1>
+            <h3 id="haslohaslo"></h3><br>
+            <button class="przycisk" id="od_nowa" value="od_nowa">Spróbuj ponownie</button>
+            <button class="przycisk" id="zmiana_kategorii" value="zmiana_kategorii">Zmień kategorię</button>
+        </div>
+
+    </div>  
+
+</body>
+</html>

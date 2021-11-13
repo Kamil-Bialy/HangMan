@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding="UTF-8"?>
+<doc>
+    <zwierzeta>
+        <haslo>słoń</haslo>
+        <haslo>żyrafa</haslo>
+        <haslo>hipopotam</haslo>
+        <haslo>wiewiórka</haslo>
+        <haslo>kameleon</haslo>
+        <haslo>paw</haslo>
+        <haslo>niedźwiedź</haslo>
+        <haslo>pies</haslo>
+        <haslo>mysz polna</haslo>
+        <haslo>panda</haslo>
+    </zwierzeta>
+    <jedzenie>
+        <haslo>barszcz</haslo>
+        <haslo>pierogi</haslo>
+        <haslo>fasolka po bretońsku</haslo>
+        <haslo>zupa pomidorowa</haslo>
+        <haslo>gołąbki</haslo>
+        <haslo>ciastka</haslo>
+        <haslo>bigos</haslo>
+        <haslo>oscypki</haslo>
+        <haslo>tort urodzinowy</haslo>
+        <haslo>makowiec</haslo>
+    </jedzenie>
+    <kraje>
+        <haslo>polska</haslo>
+        <haslo>węgry</haslo>
+        <haslo>japonia</haslo>
+        <haslo>ukraina</haslo>
+        <haslo>finlandia</haslo>
+        <haslo>boliwia</haslo>
+        <haslo>indonezja</haslo>
+        <haslo>rosja</haslo>
+        <haslo>etiopia</haslo>
+        <haslo>holandia</haslo>
+    </kraje>
+    <sport>
+        <haslo>piłka nożna</haslo>
+        <haslo>koszykówka</haslo>
+        <haslo>golf</haslo>
+        <haslo>boks</haslo>
+        <haslo>baseball</haslo>
+        <haslo>badminton</haslo>
+        <haslo>łyżwiarstwo figurowe</haslo>
+        <haslo>narciarstwo</haslo>
+        <haslo>wspinaczka</haslo>
+        <haslo>jeździectwo</haslo>
+    </sport>
+    <wiedza_ogolna>
+        <haslo>james bond</haslo>
+        <haslo>tornado</haslo>
+        <haslo>harmonijka</haslo>
+        <haslo>koszmar</haslo>
+        <haslo>amnezja dysocjacyjna</haslo>
+        <haslo>źdzbło</haslo>
+        <haslo>reżyser</haslo>
+        <haslo>strzelec</haslo>
+        <haslo>samochód</haslo>
+        <haslo>karaoke</haslo>
+    </wiedza_ogolna>
+</doc>
